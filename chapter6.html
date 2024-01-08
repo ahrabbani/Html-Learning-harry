@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chapter6</title>
+  </head>
+  <body>
+    <a href="index.html">Index</a><br />
+    <header>
+      <h1>Tables</h1>
+      In Html tables are allows to arrange data into rows and columns<br />
+    </header>
+
+    <main>
+      <section>
+        <div>
+          <pre>
+                    <b>Tag</b>	        <b>Description</b>
+                    
+                    table tag	Defines a table
+                    th tag	Defines a header cell in a table
+                    tr tag	Defines a row in a table
+                    td tag	Defines a cell in a table
+                    caption tag	Defines a table caption
+                    colgroup tag  Specifies a group of one or more columns in a table for formatting
+                    col tag	Specifies column properties for each column within a colgroup tag element
+                    thead tag	Groups the header content in a table that include caption,th with tr
+                    tbody tag	Groups the body content in a table that include after thead to last tr 
+                    tfoot tag	Groups the footer content in a table</pre
+          >
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h1>Create table</h1>
+        <table>
+          <caption>
+            Student table
+          </caption>
+          <thead>
+            <tr>
+              <th>SI.no.</th>
+              <th>Name</th>
+              <th>Roll no.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Aarif</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Hussain</td>
+              <td>23</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Rabbani</td>
+              <td>43</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h1>Format table</h1>
+        <table>
+          <caption>
+            Student table
+          </caption>
+          <thead>
+            <tr>
+              <th rowspan="2">SI.no.</th>
+              <th colspan="2">Name</th>
+              <th>Roll no.</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="2">1</td>
+              <td>Aarif</td>
+              <td>15</td>
+            </tr>
+            <tr>
+              <td>Hussain</td>
+              <td rowspan="2">23</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Rabbani</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
